@@ -6,7 +6,6 @@ begin
     i := 1;
     s := 'A man, a plan, a canal: Panama';
     j := length(s);
-    writeln('J ' + IntToStr(j) + ' => ' + s[0]);
     while i < j do
     begin
         while (i < j) and (not TCharacter.IsLetterOrDigit(s[i])) do
